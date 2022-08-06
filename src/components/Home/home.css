@@ -1,0 +1,263 @@
+
+.Home-container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.Home-title {
+  text-align: center; 
+  font-weight: 200;
+  font-size: 50px;
+}
+
+.Home-p {
+  text-align: center;
+  font-size: 16px;
+  color: #adb5bd;
+}
+
+.Home-div-btn {
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.Home-btn {
+  display: flex;  
+  justify-content: center;
+  padding: 15px 20px;
+  border: none;
+  color: #fff;
+  background-color: #73d2de;
+  border-radius: 3px;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.Home-button-icon {
+  margin-right: 10px;
+  margin-top: 3px;
+  font-size: 18px;
+}
+
+.Home-div-images {
+  position : relative;
+}
+
+.Home-image {
+  position : relative;
+  z-index: 3;
+  width: 55%;
+  top: 3rem;
+  margin: auto;
+  display: flex;
+}
+.svg-1 {
+  position: absolute;
+  z-index: 1;
+  top: 28rem;
+}
+
+.svg-2{
+  position: absolute;
+  top: 28rem;
+}
+
+/* responsive image  */
+
+@media only screen and (max-width: 1296px) {
+  .svg-1 {
+  position: absolute;
+  z-index: 1;
+  top: 23rem;
+}
+
+.svg-2{
+  position: absolute;
+  top: 23rem;
+}
+
+
+}
+
+@media only screen and (max-width: 1081px) {
+  .svg-1 {
+  position: absolute;
+  z-index: 1;
+  top: 19rem;
+}
+
+.svg-2{
+  position: absolute;
+  top: 19rem;
+}
+}
+
+@media only screen and (max-width: 819px) {
+  .svg-1 {
+  position: absolute;
+  z-index: 1;
+  top: 16rem;
+}
+
+.svg-2{
+  position: absolute;
+  top: 16rem;
+}
+}
+
+@media only screen and (max-width: 712px) {
+
+  .Home-image {
+  position : relative;
+  z-index: 3;
+  width: 65%;
+  top: 3rem;
+  margin: auto;
+  display: flex;
+}
+
+  .svg-1 {
+  position: absolute;
+  z-index: 1;
+  top: 19rem;
+}
+
+.svg-2{
+  position: absolute;
+  top: 19rem;
+}
+}
+
+@media only screen and (max-width: 609px) {
+
+  .Home-image {
+  position : relative;
+  z-index: 3;
+  width: 70%;
+  top: 3rem;
+  margin: auto;
+  display: flex;
+}
+
+}
+
+
+@media only screen and (max-width: 546px) {
+
+  .Home-image {
+  position : relative;
+  z-index: 3;
+  width: 75%;
+  top: 3rem;
+  margin: auto;
+  display: flex;
+}
+
+}
+
+
+@media only screen and (max-width: 488px) {
+
+  .Home-image {
+  position : relative;
+  z-index: 3;
+  width: 80%;
+  top: 3rem;
+  margin: auto;
+  display: flex;
+}
+
+}
+
+/* responsive in home content */
+
+
+@media only screen and (max-width: 440px) {
+
+  .Home-image {
+  position : relative;
+  z-index: 3;
+  width: 85%;
+  top: 3rem;
+  margin: auto;
+  display: flex;
+}
+
+.Home-title {
+  text-align: center; 
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.Home-p {
+  text-align: center;
+  font-size: 10px;
+  color: #adb5bd;
+}
+
+.Home-btn {
+  display: flex;  
+  justify-content: center;
+  padding: 15px 20px;
+  border: none;
+  color: #fff;
+  background-color: #73d2de;
+  border-radius: 3px;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+}
+
+
+@media only screen and (max-width: 405px) {
+
+  .Home-image {
+  position : relative;
+  z-index: 3;
+  width: 90%;
+  top: 3rem;
+  margin: auto;
+  display: flex;
+}
+
+.Home-title {
+  text-align: center; 
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.Home-p {
+  text-align: center;
+  font-size: 8px;
+  color: #adb5bd;
+}
+
+.Home-btn {
+  display: flex;  
+  justify-content: center;
+  padding: 15px 20px;
+  border: none;
+  color: #fff;
+  background-color: #73d2de;
+  border-radius: 3px;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+}
+
+
+@media only screen and (min-width: 1641px) {
+
+  .Home-image {
+  position : relative;
+  z-index: 3;
+  width: 50%;
+  top: 3rem;
+  margin: auto;
+  display: flex;
+}
+}
