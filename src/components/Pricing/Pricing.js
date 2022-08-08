@@ -18,7 +18,7 @@ function Pricing() {
           <div className="card-group">
             {/* <div className="col">   */}
             <div className="col">
-  <div className="card card-1">
+            <div className="card card-1">
                   <h4 className='pricing-plan-heading'>small plan</h4>
                   <h1 className='pricing-amount'>$14.90</h1>
                   <p className="card-text pricing-amount-subtext">billing per amount</p>
@@ -36,9 +36,9 @@ function Pricing() {
               
               {/* <div className="col">   */}
             <div className="col">
-  <div className="card card-1">
+            <div className="card card-unique">
                   <h4 className='pricing-plan-heading'>small plan</h4>
-                  <h1 className='pricing-amount'>$14.90</h1>
+                  <h1 className='pricing-amount'>$9.90</h1>
                   <p className="card-text pricing-amount-subtext">billing per amount</p>
                   <hr />
                 <div className="card-body">
@@ -51,10 +51,12 @@ function Pricing() {
             {/* </div> */}
             </div>
             </div>  {/* <div className="col">   */}
+
+
             <div className="col">
-  <div className="card card-1">
+            <div className="card card-1">
                   <h4 className='pricing-plan-heading'>small plan</h4>
-                  <h1 className='pricing-amount'>$14.90</h1>
+                  <h1 className='pricing-amount'>$29.90</h1>
                   <p className="card-text pricing-amount-subtext">billing per amount</p>
                   <hr />
                 <div className="card-body">
@@ -66,14 +68,9 @@ function Pricing() {
                 </div>
             {/* </div> */}
             </div>
-            </div>
-            
-           
-            
+            </div>      
   
-          </div>
-          
-         
+          </div> 
         </div>
         </div>
 

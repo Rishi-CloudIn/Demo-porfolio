@@ -43,8 +43,8 @@
   .card-1 {
     align-items: center;
     height: auto;
-  width: 90% !important;
-  border: none !important;
+    width: 90% !important;
+    border: none !important;
   }
 
   .pricing-plan-heading {
@@ -55,7 +55,20 @@
   }
 
   .pricing-amount {
-    font-size: 5rem;
+    font-size: 6.5rem;
     font-weight: 200;
     margin-top: 20px;
+  }
+
+  .card-unique {
+    align-items: center;
+    height: auto;
+    width: 90% !important;
+  }
+
+  .pricing-amount-subtext{
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.5;
+    text-transform: uppercase;
   }
