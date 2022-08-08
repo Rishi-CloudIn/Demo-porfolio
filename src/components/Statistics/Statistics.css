@@ -1,0 +1,424 @@
+ .statistic-container {
+    width: 100%;
+    height: auto;
+    box-sizing: border-content;
+    margin-top: 70px;   
+    background-color: #7678ed;
+    padding : 0 !important;
+  }
+
+  .statistic-title {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 200;
+    color: #fff;
+  }
+
+  .title-wrapper {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) ;
+    display: inline-block;
+  }
+
+  .statistic-line {
+    position: relative;
+    width: 30%;
+    height: 2.5PX;
+    margin: 30px auto;
+    background-color: #fff;
+  }
+  .statistic-p {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 50%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #fff;  
+  }
+
+
+  /* image */
+
+.statistic-div-images {
+  position : relative;
+  width: 100%;
+
+}
+
+.statistic-image {
+  position : relative;
+  z-index: 3;
+  width: 55%;
+  top: 7rem;
+  margin: auto;
+  display: flex;
+}
+.svg-1 {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 28rem;
+}
+
+.svg-2{
+  position: absolute;
+  top: 28rem;
+}
+
+@media only screen and (max-width: 1490px) {
+  
+  .statistic-div-images {
+  position : relative;
+  width: 100%;
+
+}
+
+.statistic-image {
+  position : relative;
+  z-index: 3;
+  width: 55%;
+  top: 10rem;
+  margin: auto;
+  display: flex;
+}
+.svg-1 {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 28rem;
+}
+.svg-2{
+  position: absolute;
+  top: 28rem;
+}
+}
+
+@media only screen and (max-width: 1329px) {
+  
+  .statistic-div-images {
+  position : relative;
+  width: 100%;
+
+}
+
+.statistic-image {
+  position : relative;
+  z-index: 3;
+  width: 55%;
+  top: 7rem;
+  margin: auto;
+  display: flex;
+}
+.svg-1 {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 24rem;
+}
+.svg-2{
+  position: absolute;
+  top: 24rem;
+}
+}
+
+@media only screen and (max-width: 1239px) {
+
+  .statistic-p {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 50%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #fff;  
+  }
+.svg-1 {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 21rem;
+}
+.svg-2{
+  position: absolute;
+  top: 21rem;
+}
+}
+
+@media only screen and (max-width: 982px) {
+  
+  .statistic-div-images {
+  position : relative;
+  width: 100%;
+
+}
+
+.statistic-image {
+  position : relative;
+  z-index: 3;
+  width: 55%;
+  top: 4rem;
+  margin: auto;
+  display: flex;
+}
+.svg-1 {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 17rem;
+}
+.svg-2{
+  position: absolute;
+  top: 17rem;
+}
+}
+
+@media only screen and (max-width: 932px) {
+  
+  .statistic-div-images {
+  position : relative;
+  width: 100%;
+
+}
+
+  .statistic-p {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 80%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #fff;  
+  }
+
+.statistic-image {
+  position : relative;
+  z-index: 3;
+  width: 55%;
+  top: 3rem;
+  margin: auto;
+  display: flex;
+}
+.svg-1 {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 13rem;
+}
+.svg-2{
+  position: absolute;
+  top: 13rem;
+}
+}
+
+
+@media only screen and (max-width: 726px) {
+  
+  .statistic-div-images {
+  position : relative;
+  width: 100%;
+
+}
+
+  .statistic-p {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 80%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #fff;  
+  }
+
+.statistic-image {
+  position : relative;
+  z-index: 3;
+  width: 55%;
+  top: 3rem;
+  margin: auto;
+  display: flex;
+}
+.svg-1 {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 11rem;
+}
+.svg-2{
+  position: absolute;
+  top: 11rem;
+}
+}
+
+
+@media only screen and (max-width: 525px) {
+  
+  .statistic-div-images {
+  position : relative;
+  width: 100%;
+
+}
+
+  .statistic-p {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 100%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #fff;  
+  }
+
+.statistic-image {
+  position : relative;
+  z-index: 3;
+  width: 55%;
+  top: 2rem;
+  margin: auto;
+  display: flex;
+}
+.svg-1 {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 8rem;
+}
+.svg-2{
+  position: absolute;
+  top: 8rem;
+}
+}
+
+@media only screen and (max-width: 579px) {
+  
+  .statistic-div-images {
+  position : relative;
+  width: 100%;
+
+}
+
+  .statistic-p {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 80%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #fff;  
+  }
+
+.statistic-image {
+  position : relative;
+  z-index: 3;
+  width: 63%;
+  top: 3rem;
+  margin: auto;
+  display: flex;
+}
+.svg-1 {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 13rem;
+}
+.svg-2{
+  position: absolute;
+  top: 13rem;
+}
+}
+
+@media only screen and (max-width: 530px) {
+  
+  
+
+  .statistic-p {
+    text-align: center;
+    font-size: 1.1rem;
+    width: 80%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #fff;  
+  }
+
+.statistic-image {
+  position : relative;
+  z-index: 3;
+  width: 60%;
+  top: 3rem;
+  margin: auto;
+  display: flex;
+}
+.svg-1 {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 10rem;
+}
+.svg-2{
+  position: absolute;
+  top: 10rem;
+}
+}
+
+@media only screen and (max-width: 416px) {
+  
+  .statistic-div-images {
+  position : relative;
+  width: 100%;
+
+}
+
+  .statistic-p {
+    text-align: center;
+    font-size: 1.4rem;
+    width:90%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #fff;  
+  }
+
+.statistic-image {
+  position : relative;
+  z-index: 3;
+  width: 60%;
+  top: 3rem;
+  margin: auto;
+  display: flex;
+}
+.svg-1 {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 8rem;
+}
+.svg-2{
+  position: absolute;
+  top: 8rem;
+}
+}
+
+
+
+
+
+
+

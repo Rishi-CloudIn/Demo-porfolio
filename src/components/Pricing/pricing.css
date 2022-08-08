@@ -1,8 +1,8 @@
  .pricing-container {
     width: 100%;
-    height: 100vh;
+    height: auto;
     box-sizing: border-box;
-    margin-top: 130px;
+    margin-top: 70px;
   }
 
   .pricing-title {
@@ -32,7 +32,7 @@
     left: 50%;
     position: relative;
     transform: translateX(-50%);
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     color: #7c7c7c;
     font-weight: 600;
   }
@@ -44,6 +44,9 @@
     height: auto;
     width: 90% !important;
     border: none !important;
+    opacity: 0.5;
+    padding: 25px 0px;
+    margin-bottom: 30px;
   }
 
   .pricing-plan-heading {
@@ -62,12 +65,279 @@
   .card-unique {
     align-items: center;
     height: auto;
-    width: 90% !important;
+    width: 100% !important;
+    border: 0.5px solid #adb5bd !important;
+    border-radius: 10px;
+    padding: 25px 0px;
   }
 
   .pricing-amount-subtext{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 600;
     letter-spacing: 0.5;
     text-transform: uppercase;
+    color: #adb5bd;
   }
+
+  .pricing-sites, .pricing-customer, .pricing-updates, .pricing-users{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #adb5bd ;
+  }
+
+  .pricing-line {
+    position: relative;
+    width: 80%;
+    height: 2.5PX;
+    margin: 30px auto;
+    background-color: #ced4da;
+  }
+
+  .btn {
+    background-color: #73d2de !important;
+    border: none !important;
+    padding: 10px 50px !important;
+    text-align: center !important; 
+    margin: 20px auto;
+    font-size: 1.5rem !important;
+  }
+
+  @media only screen and (max-width: 998px) {
+
+     .pricing-p {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 80%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    color: #7c7c7c;
+    font-weight: 600;
+  }
+
+    .card-1 {
+    align-items: center;
+    height: auto;
+    width: 100% !important;
+    border: none !important;
+    opacity: 0.5;
+    padding: 15px 0px;
+  }
+
+  .pricing-plan-heading {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    margin-top: 10px;
+  }
+
+  .pricing-amount {
+    font-size: 5rem;
+    font-weight: 200;
+    margin-top: 20px;
+  }
+
+  .card-unique {
+    align-items: center;
+    height: auto;
+    width: 100% !important;
+    border: 0.5px solid #adb5bd !important;
+    border-radius: 10px;
+    padding: 25px 0px;
+  }
+
+  .pricing-amount-subtext{
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.5;
+    text-transform: uppercase;
+    color: #adb5bd;
+  }
+
+  .pricing-sites, .pricing-customer, .pricing-updates, .pricing-users{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #adb5bd ;
+  }
+
+  .pricing-line {
+    position: relative;
+    width: 80%;
+    height: 2.5PX;
+    margin: 30px auto;
+    background-color: #ced4da;
+  }
+
+  .btn {
+    background-color: #73d2de !important;
+    border: none !important;
+    padding: 10px 50px !important;
+    text-align: center !important; 
+    margin: 0px auto;
+    font-size: 1rem !important;
+  }
+  }
+
+
+   @media only screen and (max-width: 767px) {
+
+     .pricing-p {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 90%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    color: #7c7c7c;
+    font-weight: 600;
+  }
+
+    .card-1 {
+    align-items: center;
+    height: auto;
+    width: 100% !important;
+    border: none !important;
+    opacity: 0.5;
+    padding: 10px 0px;
+  }
+
+  .pricing-plan-heading {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    margin-top: 5px;
+  }
+
+  .pricing-amount {
+    font-size: 3rem;
+    font-weight: 200;
+    margin-top: 20px;
+  }
+
+  .card-unique {
+    align-items: center;
+    height: auto;
+    width: 100% !important;
+    border: 0.5px solid #adb5bd !important;
+    border-radius: 10px;
+    padding: 10px 0px;
+  }
+
+  .pricing-amount-subtext{
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.5;
+    text-transform: uppercase;
+    color: #adb5bd;
+  }
+
+  .pricing-sites, .pricing-customer, .pricing-updates, .pricing-users{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #adb5bd ;
+  }
+
+  .pricing-line {
+    position: relative;
+    width: 80%;
+    height: 2.5PX;
+    margin: 10px auto;
+    background-color: #ced4da;
+  }
+
+  .btn {
+    background-color: #73d2de !important;
+    border: none !important;
+    padding: 10px 30px !important;
+    text-align: center !important; 
+    margin: 0px auto;
+    font-size: 1rem !important;
+  }
+   }
+
+
+   @media only screen and (max-width: 577px) {
+
+     .pricing-p {
+    text-align: center;
+    font-size: 1.1rem;
+    width: 90%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    color: #7c7c7c;
+    font-weight: 600;
+  }
+
+    .card-1 {
+    align-items: center;
+    height: auto;
+    width: 40% !important;
+    border: 0.5px solid #adb5bd !important;
+    border-radius: 10px;
+    opacity: 0.5;
+    padding: 10px 0px;
+    margin: 0px auto;
+  }
+
+  .pricing-plan-heading {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    margin-top: 5px;
+  }
+
+  .pricing-amount {
+    font-size: 3rem;
+    font-weight: 200;
+    margin-top: 20px;
+  }
+
+  .card-unique {
+    align-items: center;
+    height: auto;
+    width: 40% !important;
+    margin: 10px auto;
+    border: 0.5px solid #adb5bd !important;
+    border-radius: 10px;
+    padding: 10px 0px;
+  }
+
+  .pricing-amount-subtext{
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.5;
+    text-transform: uppercase;
+    color: #adb5bd;
+  }
+
+  .pricing-sites, .pricing-customer, .pricing-updates, .pricing-users{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #adb5bd ;
+  }
+
+  .pricing-line {
+    position: relative;
+    width: 40%;
+    height: 2.5PX;
+    margin: 10px auto;
+    background-color: #ced4da;
+  }
+
+  .btn {
+    background-color: #73d2de !important;
+    border: none !important;
+    padding: 10px 30px !important;
+    text-align: center !important; 
+    margin: 0px auto;
+    font-size: 1rem !important;
+  }
+   }
