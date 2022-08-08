@@ -18,13 +18,14 @@
     display: inline-block;
   }
 
-  .pricing-line {
+  .pricing-line-1 {
     position: relative;
     width: 30%;
     height: 2.5PX;
     margin: 30px auto;
     background-color: #495057;
   }
+
   .pricing-p {
     text-align: center;
     font-size: 1.4rem;

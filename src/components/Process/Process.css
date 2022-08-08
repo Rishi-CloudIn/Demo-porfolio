@@ -1,0 +1,74 @@
+.process-container {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 70px;
+  }
+
+  .process-title {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 200;
+  }
+
+  .title-wrapper {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) ;
+    display: inline-block;
+  }
+
+  .process-line {
+    position: relative;
+    width: 30%;
+    height: 2.5PX;
+    margin: 30px auto;
+    background-color: #495057;
+  }
+
+  .process-p {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 50%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    color: #7c7c7c;
+    font-weight: 600;
+  }
+
+
+  /* content */
+
+  .skill-bar {
+  width: 25%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #ece6fa;
+  position: relative;
+  overflow: hidden;
+  top: 3rem;
+  margin: 0 20px;
+}
+
+.skill-progress {
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: 0;
+  background-color: var(--main-color);
+  transition: 1s;
+}
+
+ .process-content {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.process-content-1 {
+  text-align: center;
+} 
