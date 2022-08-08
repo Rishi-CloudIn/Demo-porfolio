@@ -11,7 +11,7 @@ function Pricing() {
           <h1 className="pricing-title">Our Pricings</h1>
           <div className="pricing-line"></div> 
         </div>
-        <p className="pricing-p">lorem ipsum dolor sit am lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem </p>
+        <p className="pricing-p">lorem ipsum dolor sit am lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet lorem ipsum dolor sit met lorem ipsum dolor sit amet lorem </p>
       
 
         <div className="row">
