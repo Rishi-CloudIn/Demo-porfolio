@@ -1,0 +1,155 @@
+.start-container {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 70px;
+    background-color: #7678ed;
+  }
+
+  .start-title {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 200;
+    color: #fff;
+  }
+
+  .title-wrapper {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) ;
+    display: inline-block;
+  }
+
+  .start-line {
+    position: relative;
+    width: 30%;
+    height: 2.5PX;
+    margin: 30px auto;
+    background-color: #fff;
+  }
+
+  .start-p {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 50%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    color: #fff;
+    font-weight: 600;
+  }
+
+
+  .start-btn {
+  display: flex;  
+  justify-content: center;
+  padding: 15px 20px;
+  border: none;
+  color: #fff;
+  background-color: #73d2de;
+  border-radius: 3px;
+  font-size: 17px;
+  margin: 40px auto;
+
+}
+
+
+/* content */
+
+.start-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;	
+  margin: 40px auto;
+  padding: 50px 20px;
+}
+
+.start-icon {
+  color: #fff;
+  font-size: 28px;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 972px) {
+  .start-p {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 80%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .start-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;	
+  margin: 40px auto;
+  padding: 50px auto;
+}
+
+.start-icon {
+  color: #fff;
+  font-size: 18px;
+}
+}
+
+@media only screen and (max-width: 662px) {
+  .start-p {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 90%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .start-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;	
+  margin: 20px auto;
+  padding: 30px auto;
+}
+
+.start-icon {
+  color: #fff;
+  font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 492px) {
+  .start-p {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 80%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .start-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;	
+  margin: 20px auto;
+  padding: 20px auto;
+}
+
+.start-icon {
+  color: #fff;
+  font-size: 10px;
+}
+}

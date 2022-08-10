@@ -28,7 +28,7 @@ function Testimonial() {
 
           <div className="testi-content-2">
             <div className="testi-content-card">
-              <img src="./images/testi-img/testi-person-2.jpg" alt="photo" className="testi-img" />
+              <img src="./images/person.jpg" alt="photo" className="testi-img" />
               <p className="testi-content-p">lorem ipsum dolor sit lorem ipsum dolor sit lorem</p>
             </div>
             <h2 className='testi-content-h2'>Rob Black</h2>

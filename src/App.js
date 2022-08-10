@@ -6,6 +6,8 @@ import Pricing from './components/Pricing/Pricing';
 import Statistics from './components/Statistics/statistics';
 import Process from './components/Process/Process';
 import Testimonial from './components/Testimonials/Testimonial';
+import Start from './components/Start/Start';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -16,6 +18,8 @@ function App() {
       <Statistics />
       <Process />
       <Testimonial />
+      <Start />
+      <Footer />
     </div>
   );
 }
