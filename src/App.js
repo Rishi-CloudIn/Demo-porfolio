@@ -8,12 +8,12 @@ import Process from './components/Process/Process';
 import Testimonial from './components/Testimonials/Testimonial';
 import Start from './components/Start/Start';
 import Footer from './components/Footer/Footer';
-import {
-  BrowserRouter as Router,
-  Route,
-  // Routes,
-  Link
-} from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Route,
+//   // Routes,
+//   Link
+// } from "react-router-dom";
 
 function App() {
   return (
@@ -25,8 +25,6 @@ function App() {
           <Statistics />
           <Process />
           <Testimonial />
-          <Start />
-          <Navbar />
           <Start />
           <Footer />
     </div>
