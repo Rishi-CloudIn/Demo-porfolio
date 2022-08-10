@@ -44,7 +44,7 @@ function Navbar() {
 
         <div className="profile">
           <h1 className='setting__icon'><AiOutlineSetting /></h1>
-          <img src="./images/person.jpg" alt="person" />
+          <img src="./images/person.jpg" className='navbar-img' alt="person" />
           
           {/* hamburger start menu */} 
           

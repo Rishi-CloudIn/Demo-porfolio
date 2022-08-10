@@ -67,7 +67,7 @@ li {
   align-items: center;
 }
 
-img{
+.navbar-img{
   margin-left: 20px;
   width: 50px;
   margin-bottom: 13px;
@@ -102,7 +102,7 @@ img{
     margin-top: 5px;
   }
   
-  img{
+  .navbar-img{
   margin-left: 20px;
   width: 50px;
   margin-bottom: 5px;
@@ -193,7 +193,7 @@ img{
     font-size: 3rem;
   }
 
-  img{
+  .navbar-img{
   display: none;
 }
 
